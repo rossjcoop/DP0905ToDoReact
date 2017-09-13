@@ -3,8 +3,8 @@
 
 
 .containerMain {
-  width: 600px;
-  background-image: url(/images/paper1.jpg);
+  width: 400px;
+  background-color: rgb(253, 244, 166);
   margin: 10px auto;
   text-align: center;
   padding: 15px;
@@ -16,43 +16,41 @@
 
 .container {
   margin: 15px auto;
-
-
 }
 
-.title {
-  font-size: 48px;
-}
 
 
 
 form > input {
-  width: 400px;
-  height: 24px;
+  width: 300px;
+  height: 16px;
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 30px;
+  font-size: 16px;
 }
 
-form > button {
-  width: 100px;
-  height: 24px;
-  border-style: none; 
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 24px;
-}
+
 
 .checkbox {
+  background-color: transparent;
   display: hidden;
+  border: none;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 0px;
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
 }
 
 .checkbox:hover {
-  display: visible;
+  color: red;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 0px;
+  font-size: 20px;
 }
 
 
 .completed {
   text-decoration: line-through;
-  color: green;
+  color: #ccc;
   list-style: none;
   font-size: 24px;
 }
@@ -73,5 +71,34 @@ li {
   border: 1px solid black;
   border-collapse: collapse;
   margin: -1px 0px 0px 0px;
+}
+
+
+
+.bottomBar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: red;
+}
+
+.buttonLink {
+  background-color: transparent;
+  display: hidden;
+  border: none;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.buttonLink:hover {
+  color: red;
 }
 

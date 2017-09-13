@@ -30,7 +30,7 @@ class TodoForm extends Component {
     		<div className="todoForm">
 	    		<form onSubmit={this.handleSubmit}>
 	    			<input type="text" name="todoInput" onChange={this.handleInput} value={this.state.todoInput} placeholder="Add a Task" />
-	    			<button type="submit">Submit</button>
+	    			<button type="submit" className="checkbox">→</button>
 	    		</form>
     		</div>
     	</div>     

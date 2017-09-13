@@ -16,10 +16,10 @@ class TodoItem extends Component {
 
   render() {
     return (
-    	<li className={this.props.status}>
-    	<input type="checkbox" onClick={this.remove} className="checkbox" />
-    	{this.props.text}
-    	<button onClick={this.complete}>Done!</button>
+    	<li>
+    	<input type="button" onClick={this.remove} className="checkbox" value="✕"/>
+    	<span className={this.props.status}>{this.props.text}</span>
+    	<button onClick={this.complete} className="checkbox">✓</button>
     	</li> 	   
     )
   }
