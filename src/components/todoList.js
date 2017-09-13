@@ -7,11 +7,9 @@ class TodoList extends Component {
   render() {
     return (
     	<div className="container">
-    		<ul>
     		{this.props.todos.map(todo => (
     			<TodoItem key={todo.id} {...todo} />
-    		))}
-    		</ul>	
+    		))}	
     	</div>     
     )
   }

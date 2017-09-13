@@ -28,10 +28,10 @@ class TodoForm extends Component {
     return (
     	<div className="container">
     		<div className="todoForm">
-    		<form onSubmit={this.handleSubmit}>
-    			<input type="text" name="todoInput" onChange={this.handleInput} value={this.state.todoInput} placeholder="Add a Todo" />
-    			<button type="submit">Submit</button>
-    		</form>
+	    		<form onSubmit={this.handleSubmit}>
+	    			<input type="text" name="todoInput" onChange={this.handleInput} value={this.state.todoInput} placeholder="Add a Task" />
+	    			<button type="submit">Submit</button>
+	    		</form>
     		</div>
     	</div>     
     )

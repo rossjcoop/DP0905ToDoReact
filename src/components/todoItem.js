@@ -17,9 +17,9 @@ class TodoItem extends Component {
   render() {
     return (
     	<li className={this.props.status}>
-    	<input type="checkbox" onClick={this.remove} />
+    	<input type="checkbox" onClick={this.remove} className="checkbox" />
     	{this.props.text}
-    	<button onClick={this.complete}>Completed</button>
+    	<button onClick={this.complete}>Done!</button>
     	</li> 	   
     )
   }

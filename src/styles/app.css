@@ -1,9 +1,77 @@
+
+
+
+
+.containerMain {
+  width: 600px;
+  background-image: url(/images/paper1.jpg);
+  margin: 10px auto;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid black;
+
+}
+
+
+
+.container {
+  margin: 15px auto;
+
+
+}
+
+.title {
+  font-size: 48px;
+}
+
+
+
+form > input {
+  width: 400px;
+  height: 24px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+}
+
+form > button {
+  width: 100px;
+  height: 24px;
+  border-style: none; 
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 24px;
+}
+
+.checkbox {
+  display: hidden;
+}
+
+.checkbox:hover {
+  display: visible;
+}
+
+
 .completed {
   text-decoration: line-through;
   color: green;
+  list-style: none;
+  font-size: 24px;
 }
 
 
 .pending {
   color: red;
+  list-style: none;
+  font-size: 24px;
 }
+
+
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: -1px 0px 0px 0px;
+}
+

@@ -12,7 +12,10 @@ class todoRoutes extends Component {
 
   render() {
     return (
-    	<div>
+    	<div className="containerMain">
+    		<span className="title">D.T.M.</span>
+    		<br />
+    		<span>Digital Task Manager</span>
     		<TodoForm />
           	<TodoList />
           	<TodoBar />

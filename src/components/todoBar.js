@@ -13,17 +13,17 @@ class todoBar extends Component {
 
   render() {
     return (
-    	<div className="bottomBar">
+    	<div className="container">
     		<div>
-    		{this.props.count} items
+    			{this.props.count} items need to be completed.
     		</div>
     		<div>
-    		<Link to="/">All</Link>
-    		<Link to="/pending">Active</Link>
-    		<Link to="/completed">Complete</Link>
+	    		<Link to="/" className="link">All</Link>
+	    		<Link to="/pending" className="link">Active</Link>
+	    		<Link to="/completed" className="link">Complete</Link>
     		</div>
     		<div>  		
-    		<button onClick={this.handleClear}>Clear All</button>
+    			<button onClick={this.handleClear}>Clear All</button>
     		</div>
     	</div>     
     )
